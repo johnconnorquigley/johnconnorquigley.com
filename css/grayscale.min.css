@@ -107,7 +107,7 @@
 }
 
 .masthead h1 {
-    font-family: 'Varela Round';
+    font-family: 'Times New Roman';
     font-size: 2.5rem;
     line-height: 2.5rem;
     letter-spacing: .8rem;
@@ -149,11 +149,21 @@
 .btn {
     box-shadow: 0 .1875rem .1875rem 0 rgba(0, 0, 0, .1) !important;
     padding: 1.25rem 2rem;
-    font-family: 'Varela Round';
+    font-family: 'Times New Roman';
     font-size: 80%;
     text-transform: uppercase;
     letter-spacing: .15rem;
     border: 0
+}
+
+.btn-contact {
+  color:#161616;
+  background-color: #64a19d
+}
+
+.btn-contact:hover {
+    color: #fff;
+    background-color: #a13897
 }
 
 .btn-primary {
@@ -218,35 +228,48 @@
 
 .about-section p {
     color: #64a19d;
-    margin-bottom: 5rem
+    font-size: 1.5rem;
+    margin-bottom: 3rem
 }
 
-.projects-section {
-    padding: 10rem 0
+.skill-section {
+    padding-top: 10rem;
+    padding-bottom: 5rem;
+    background: linear-gradient(to bottom, #161616 0, rgba(22, 22, 22, .9) 75%, rgba(22, 22, 22, .8) 100%)
 }
 
-.projects-section .featured-text {
+.skill-section p {
+    color: #64a19d;
+    font-size: 1.5rem;
+    margin-bottom: 1rem
+}
+
+.work-section {
+    padding: 5rem 0
+}
+
+.work-section .featured-text {
     padding: 2rem
 }
 
 @media (min-width:992px) {
-    .projects-section .featured-text {
+    .work-section .featured-text {
         padding: 0 0 0 2rem;
         border-left: .5rem solid #64a19d
     }
 }
 
-.projects-section .project-text {
+.work-section .project-text {
     padding: 3rem;
     font-size: 90%
 }
 
 @media (min-width:992px) {
-    .projects-section .project-text {
+    .work-section .project-text {
         padding: 5rem
     }
 
-    .projects-section .project-text hr {
+    .work-section .project-text hr {
         border-color: #64a19d;
         border-width: .25rem;
         width: 30%
@@ -266,7 +289,7 @@
     box-shadow: 0 .1875rem .1875rem 0 rgba(0, 0, 0, .1) !important;
     padding: 1.25rem 2rem;
     height: auto;
-    font-family: 'Varela Round';
+    font-family: 'Times New Roman';
     font-size: 80%;
     text-transform: uppercase;
     letter-spacing: .15rem;
@@ -284,7 +307,7 @@
 
 .contact-section .card h4 {
     font-size: .8rem;
-    font-family: 'Varela Round';
+    font-family: 'Times New Roman';
     text-transform: uppercase;
     letter-spacing: .15rem
 }
@@ -318,12 +341,21 @@
 }
 
 .img-fluid{
- max-width:50%;
+  max-width:100%;
   height:auto
 }
 
+.img-fluid-about {
+  max-width:50%;
+  height:auto
+}
+
+.img-border {
+  border-width: 3px;
+}
+
 body {
-    font-family: Nunito;
+    font-family:"Times New Roman";
     letter-spacing: .0625em
 }
 
