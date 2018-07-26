@@ -346,9 +346,12 @@
 }
 
 .img-fluid-about {
-  max-width:20%;
+  max-width:40%;
+  border: 3px solid #a13897;
   height:auto
 }
+
+
 
 .img-border {
   border-width: 3px;
