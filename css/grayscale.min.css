@@ -149,7 +149,7 @@
 .btn {
     box-shadow: 0 .1875rem .1875rem 0 rgba(0, 0, 0, .1) !important;
     padding: 1.25rem 2rem;
-    font-family: 'Times New Roman';
+    font-family: 'Arial';
     font-size: 80%;
     text-transform: uppercase;
     letter-spacing: .15rem;
@@ -289,7 +289,7 @@
     box-shadow: 0 .1875rem .1875rem 0 rgba(0, 0, 0, .1) !important;
     padding: 1.25rem 2rem;
     height: auto;
-    font-family: 'Times New Roman';
+    font-family: 'Arial';
     font-size: 80%;
     text-transform: uppercase;
     letter-spacing: .15rem;
@@ -307,7 +307,7 @@
 
 .contact-section .card h4 {
     font-size: .8rem;
-    font-family: 'Times New Roman';
+    font-family: 'Arial';
     text-transform: uppercase;
     letter-spacing: .15rem
 }
@@ -358,7 +358,7 @@
 }
 
 body {
-    font-family:"Times New Roman";
+    font-family:"Arial";
     letter-spacing: .0625em
 }
 
